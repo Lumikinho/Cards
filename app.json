@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "893c639f-0ed9-45cd-9656-dd279ff344df"
+      }
+    },
+    "owner": "lumiko"
   }
 }
