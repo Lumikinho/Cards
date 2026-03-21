@@ -12,24 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "newArchEnabled": false
     },
     "android": {
+      "newArchEnabled": false,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/android-icon-foreground.png"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "893c639f-0ed9-45cd-9656-dd279ff344df"
-      }
-    },
-    "owner": "lumiko"
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
